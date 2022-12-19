@@ -11,7 +11,6 @@
   </head>
   <body>
     <div class="container mx-auto my-auto bg-[url('assets/back.svg')] h-[40rem] object-fill font-['quicksand']">
-    <!-- <div class="container mx-auto my-auto h-[45rem]" style="background-image: url('assets/back.svg'); object-fit: fill;"> -->
       <div class="grid xl:grid-cols-2 gap-10">
         <div class="md:lg:p-28 p-4 text-center xl:text-start">
           <div class="flex justify-center xl:justify-start pt-8 md:lg:pt-0">
@@ -84,7 +83,7 @@
       document.getElementById("day").innerHTML = ("0" + days).slice(-2);
       document.getElementById("hour").innerHTML = ("0" + hours).slice(-2);
       document.getElementById("minute").innerHTML = ("0" + minutes).slice(-2);
-      document.getElementById("second").innerHTML = ("0" + seconds).slice(-2);
+      // document.getElementById("second").innerHTML = ("0" + seconds).slice(-2);
       if (distance < 0) {
         clearInterval(x);
         document.getElementById("done").classList.remove('hidden');
